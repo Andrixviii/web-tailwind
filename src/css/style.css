@@ -1,0 +1,19 @@
+  body {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+
+  @keyframes drop {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .animate-drop {
+    animation: drop 1s ease-out;
+  }
+
